@@ -42,3 +42,9 @@ FS_LAT=59.33 FS_LON=18.07 FS_DEC=30 FS_AZ=0 FS_KWP=10 node tools/forecast-solar-
 ## Notes
 - Some inline comments are in Swedish (the dashboard's origin) — translate as needed.
 - Nothing here writes to the inverter; it only reads HA state and deploys Lovelace config.
+
+## Related
+- The HA add-on that produces the data these charts read:
+  [solinteg-controller-addon](https://github.com/mikaelpettersson68/solinteg-controller-addon)
+  (Solinteg Controller + Modbus proxy).
+- Upstream app: [hspolander/solinteg-controller-oss](https://github.com/hspolander/solinteg-controller-oss).
